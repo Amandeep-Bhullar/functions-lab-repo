@@ -8,11 +8,16 @@ function writeOutputToDocument( result ) {
   }
   let numToSquare=3;
   let theSquareResult= squareNumber(numToSquare);
-  writeOutputToDocument(`The result of squaring the number 3 is ${theSquareResult}`)
-  // squareNumber(3);
+  writeOutputToDocument(`The result of squaring the number 3 is ${theSquareResult}`);
   
   // Write a function called halfNumber that will take one argument (a number), divide it by 2, and return the result. It should also log a string like "Half of 5 is 2.5.".
-  
+  function halfNumber(numToHalfNumber){
+return numToHalfNumber;
+  }
+  let numToHalfNumber=5;
+  let half=numToHalfNumber/2;
+  writeOutputToDocument(`Half of 5 is ${half}`);
+  console.log(`Half of 5 is `+half);
   
   
   // Write a function called percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result. It should also log a string like "2 is 50% of 4."
