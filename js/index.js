@@ -6,7 +6,10 @@ function writeOutputToDocument( result ) {
   function squareNumber(numToSquare){
     return numToSquare **2;
   }
-  
+  let numToSquare=3;
+  let theSquareResult= squareNumber(numToSquare);
+  writeOutputToDocument(`The result of squaring the number 3 is ${theSquareResult}`)
+  // squareNumber(3);
   
   // Write a function called halfNumber that will take one argument (a number), divide it by 2, and return the result. It should also log a string like "Half of 5 is 2.5.".
   
