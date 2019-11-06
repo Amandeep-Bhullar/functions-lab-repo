@@ -32,9 +32,13 @@ return numToHalfNumber;
   console.log(firstNumber+` is `+percent+`% of `+secondNumber);
   // Write a function called areaOfCircle that will take one argument (the radius), calculate the area based on that, and return the result. It should also log a string like "The area for a circle with radius 2 is 12.566370614359172."
   //      Bonus: Round the result so there are only two digits after the decimal.
-  
-  
-  
+  function areaOfCircle(theRadius){
+    return theRadius;
+  }
+  let theRadius=2;
+  let area=(theRadius**theRadius)*3.14;
+  writeOutputToDocument(`The area for a circle with radius 2 is ${area}`);
+  console.log(`The area for a circle with radius 2 is ` +area);
   // Write a function that will take one argument (a number) and perform the following operations, using the functions you wrote earlier
   //      1. Take half of the number and store the result.
   //      2. Square the result of #1 and store that result. 
