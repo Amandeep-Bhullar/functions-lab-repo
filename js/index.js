@@ -22,8 +22,14 @@ return numToHalfNumber;
   
   // Write a function called percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result. It should also log a string like "2 is 50% of 4."
   
-  
-  
+  function percentOf(firstNumber, secondNumber){
+    return firstNumber, secondNumber;
+  }
+  let firstNumber= 2;
+  let secondNumber=4;
+  let percent=(firstNumber /secondNumber)*100;
+  writeOutputToDocument(`${firstNumber} is ${percent}% of ${secondNumber}`);
+  console.log(firstNumber+` is `+percent+`% of `+secondNumber);
   // Write a function called areaOfCircle that will take one argument (the radius), calculate the area based on that, and return the result. It should also log a string like "The area for a circle with radius 2 is 12.566370614359172."
   //      Bonus: Round the result so there are only two digits after the decimal.
   
